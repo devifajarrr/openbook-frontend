@@ -32,7 +32,7 @@ export class Home extends Component {
               >
                 Baca Buku Yuh...
               </h1>
-              <h6 style={{ fontWeight: 'normal' }} className="text-justify">
+              <h5 style={{ fontWeight: 'normal' }} className="text-justify">
                 Jadi kemaren gw beli buku trus Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit. A cras sed velit vitae elit in.
                 Pretium fames proin pellentesque elementum. Ornare sed duis quis
@@ -40,7 +40,7 @@ export class Home extends Component {
                 amet consectetur adipisicing elit. Autem nostrum in ad aut odio
                 nihil provident amet, culpa itaque? Nisi qui enim rerum laborum
                 eius assumenda tempore. Ex, accusantium alias?
-              </h6>
+              </h5>
               <img src="/assets/img/logo.png" alt="logo" className="mt-4" />
             </Col>
           </Row>
