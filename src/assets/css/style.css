@@ -13,3 +13,6 @@ body {
   display: flex;
   flex-direction: column;
 }
+:root {
+  --blue2: linear-gradient(115.16deg, #61a0f7 24.15%, #4393ff 73.72%);
+}

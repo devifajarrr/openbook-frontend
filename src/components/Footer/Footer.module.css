@@ -1,0 +1,28 @@
+.logo {
+  max-height: 45px;
+}
+.title {
+  font-weight: 700;
+  margin: 1em 0;
+}
+.footer {
+  font-size: 14px;
+  color: #fff;
+  padding: 2em 3em 0 3em;
+  width: 100%;
+  position: relative;
+  background: var(--blue2);
+}
+.link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.link:hover {
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.social-icon {
+  margin-right: 0.9em;
+}

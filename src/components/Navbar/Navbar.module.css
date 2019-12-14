@@ -1,3 +1,18 @@
-.something {
-  color: red;
+.nav {
+  background-color: white;
+  color: black;
+}
+:global .navbar-light .navbar-nav .nav-link {
+  color: black;
+  transition: 0.2s ease all;
+}
+.searchBox {
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+.searchIcon {
+  color: rgb(180, 180, 180);
+}
+.daftarBtn {
+  border-radius: 1px;
+  color: white !important;
 }
