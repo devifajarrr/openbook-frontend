@@ -1,0 +1,6 @@
+.item {
+  background: var(--blue2) !important;
+  border: 0 !important;
+  padding: 0.5em 1em !important;
+  border-radius: 1px !important;
+}

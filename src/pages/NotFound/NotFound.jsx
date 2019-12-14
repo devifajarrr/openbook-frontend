@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class NotFound extends Component {
   render() {
     return (
-      <div className="flex-grow-1">
+      <div className="flex-grow-1 text-center mt-5">
         <h1>
           404 not found{' '}
           <span role="img" aria-labelledby="nangid">
