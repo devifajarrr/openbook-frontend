@@ -3,12 +3,23 @@ import CategoriesNav from '../../components/CategoriesNav/CategoriesNav'
 import CardSlider from '../../components/CardSlider/CardSlider'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Style from './Home.module.css'
 import Col from 'react-bootstrap/Col'
+
 export class Home extends Component {
   render() {
     return (
       <div className="flex-grow-1">
-        <div>slide-show</div>
+        <div className={Style.SlideShow}>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <h1><center>Discover Something New Book</center></h1> 
+          <center><h6>- Buat slider buku -</h6></center> 
+        </div>
         <CategoriesNav />
         <CardSlider title="Populer" />
         <CardSlider title="Yang baru nich" />

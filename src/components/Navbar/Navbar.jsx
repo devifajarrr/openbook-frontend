@@ -7,6 +7,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { NavLink as Link } from 'react-router-dom'
 import style from './Navbar.module.css'
 import cx from 'classnames'
+
 const Navbar = () => {
   return (
     <div>
@@ -28,15 +29,16 @@ const Navbar = () => {
           </div>
         </Form>
         <Nav>
-          <Link className="nav-link mr-1" to="/about">
+          
+          <Link className="nav-link mr-1" to="/Tentang" >
             Tentang
           </Link>
-          <Link className="nav-link mr-1" to="/login">
+          <Link className="nav-link mr-1" to="/Login">
             Masuk
           </Link>
           <Link
             className={cx(style.daftarBtn, 'nav-link btn btn-primary')}
-            to="/register"
+            to="/Register"
           >
             Daftar
           </Link>

@@ -1,0 +1,30 @@
+.masuk{
+    height: 500px;
+    float: left;
+    margin: auto;
+  
+}
+
+.formInput{
+    border: solid;
+    border-color: #2f80ed;
+    border-radius: 5px;
+    margin: 10px;
+    width: 250px;
+    
+}
+.titleMasuk{
+    margin-left: 10px;
+}
+.buttonMasuk{
+    background: #d8d6d6;
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+
+}
+.buttonMasuk:hover{
+    background: #2f80ed;
+    color: white;
+}
